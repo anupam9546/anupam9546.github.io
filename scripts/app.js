@@ -288,7 +288,7 @@ function init() {
         bunnyWrapper.classList.add('delete')
         wrapper.classList.add('absolute')
         triggerShuffle(title, 'Anupam Mathur', 4)
-        triggerShuffle(intro, 'Aspiring Data Scientist', 4)
+        triggerShuffle(intro, 'Tech-Agnostic/Grad-2023', 4)
       
         navLink.forEach((_link,i)=>{
           triggerShuffle(linkLabel[i], linkNames[i], 7)
