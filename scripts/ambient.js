@@ -45,61 +45,34 @@ function init() {
   
     const imagesOne = [
       {
-        file: 'catblob.png',
-        width: 250,
-        height: 250,
-        speed: 24,
+        file: 'gifarch.gif',
+        width: 350,
+        height: 200,
+        speed: 28,
         zIndex: 2
       },
+
       {
-        file: 'down.gif',
-        width: 50,
-        height: 50,
-        speed: 16,
+        file: 'dataanalysis.gif',
+        width: 250,
+        height: (200),
+        speed: 15,
         zIndex: 3
+      },
+      {
+        file: 'arch.jpg',
+        width:450,
+        height: 300,
+        speed: 20,
+        zIndex: 0
       },
       {
         file: 'graph.gif',
         width: (200),
         height: 200,
-        speed: 23,
-        zIndex: 2
-      },
-      {
-        file: 'collect_star.gif',
-        width: (150 * (647 / 346)),
-        height: 150,
-        speed: 20,
-        zIndex: 2
-      },
-      {
-        file: 'game_play_3.png',
-        width: 250,
-        height: (250 * (640 / 647)),
-        speed: 28,
+        speed: 10,
         zIndex: 1
-      },
-      // {
-      //   file: 'right.gif',
-      //   width: 50,
-      //   height: 50,
-      //   speed: 15,
-      //   zIndex: 3
-      // },
-      {
-        file: 'sleep.gif',
-        width: 50,
-        height: 50,
-        speed: 12,
-        zIndex: 3
       }
-      // {
-      //   file: 'invincible.gif',
-      //   width: 50,
-      //   height: (50 * (88 / 86)),
-      //   speed: 18,
-      //   zIndex: 3
-      // }
     ]
   
     const imagesTwo = [
