@@ -77,103 +77,89 @@ function init() {
   
     const imagesTwo = [
       {
-        file: 'entry.gif',
-        width: 250 * (800 / 665),
-        height: 250,
+        file: 'senti.gif',
+        width: 300,
+        height: 150,
         speed: 24,
         zIndex: 2
       },
       {
-        file: 'pokeball_hover.gif',
-        width: 70 * (208 / 189),
-        height: 70,
-        speed: 16,
-        zIndex: 3
-      },
-      {
-        file: 'eevee_page.png',
-        width: 250 * (900 / 533),
+        file: 'example.gif',
+        width: 550,
         height: 250,
-        speed: 28,
+        speed: 35,
         zIndex: 1
       },
       {
-        file: 'bop.gif',
-        width: 80 * (534 / 110),
+        file: 'bert-google.jpg',
+        width: 200,
         height: 80,
         speed: 22,
-        zIndex: 2
-      }
-      // {
-      //   file: 'catching_pokemon.gif',
-      //   width: 120 * (900 / 439),
-      //   height: 120,
-      //   speed: 20,
-      //   zIndex: 3
-      // }
-    ]
-  
-    const imagesThree = [
-      {
-        file: 'pokezon_home_pika.png',
-        width: 200 * (514 / 300),
-        height: 200,
-        speed: 24,
-        zIndex: 1
-      },
-      {
-        file: 'hover_effect.gif',
-        width: 50 * (509 / 90),
-        height: 50,
-        speed: 16,
         zIndex: 3
-      },
-      {
-        file: 'eevee.gif',
-        width: 150 * (900 / 1050),
-        height: 150,
-        speed: 20,
-        zIndex: 3
-      },
-      {
-        file: 'adding_to_basket.gif',
-        width: 100 * (900 / 509),
-        height: 100,
-        speed: 15,
-        zIndex: 2
       }
     ]
   
-    const imagesFour = [
-      {
-        file: 'index16.png',
-        width: 200 * (388 / 300),
-        height: 200,
-        speed: 24,
-        zIndex: 1
-      },
-      {
-        file: 'sign_in.gif',
-        width: 90 * (342 / 200),
-        height: 90,
-        speed: 18,
-        zIndex: 3
-      },
-      {
-        file: 'drawing.gif',
-        width: 130 * (307 / 300),
-        height: 130,
-        speed: 16,
-        zIndex: 3
-      },
-      {
-        file: 'home.gif',
-        width: 200 * (307 / 250),
-        height: 200,
-        speed: 18,
-        zIndex: 2
-      }
-    ]
+    // const imagesThree = [
+    //   {
+    //     file: 'pokezon_home_pika.png',
+    //     width: 200 * (514 / 300),
+    //     height: 200,
+    //     speed: 24,
+    //     zIndex: 1
+    //   },
+    //   {
+    //     file: 'hover_effect.gif',
+    //     width: 50 * (509 / 90),
+    //     height: 50,
+    //     speed: 16,
+    //     zIndex: 3
+    //   },
+    //   {
+    //     file: 'eevee.gif',
+    //     width: 150 * (900 / 1050),
+    //     height: 150,
+    //     speed: 20,
+    //     zIndex: 3
+    //   },
+    //   {
+    //     file: 'adding_to_basket.gif',
+    //     width: 100 * (900 / 509),
+    //     height: 100,
+    //     speed: 15,
+    //     zIndex: 2
+    //   }
+    // ]
+  
+    // const imagesFour = [
+    //   {
+    //     file: 'index16.png',
+    //     width: 200 * (388 / 300),
+    //     height: 200,
+    //     speed: 24,
+    //     zIndex: 1
+    //   },
+    //   {
+    //     file: 'sign_in.gif',
+    //     width: 90 * (342 / 200),
+    //     height: 90,
+    //     speed: 18,
+    //     zIndex: 3
+    //   },
+    //   {
+    //     file: 'drawing.gif',
+    //     width: 130 * (307 / 300),
+    //     height: 130,
+    //     speed: 16,
+    //     zIndex: 3
+    //   },
+    //   {
+    //     file: 'home.gif',
+    //     width: 200 * (307 / 250),
+    //     height: 200,
+    //     speed: 18,
+    //     zIndex: 2
+    //   }
+    // ]
     
     
     // ./assets/catblob.png
