@@ -24,9 +24,6 @@ function init() {
     ]
   
     const design = [
-      'Illustrator',
-      'Photoshop',
-      'Trello'
     ]
   
     const languages = [
