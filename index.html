@@ -6,7 +6,7 @@
   
   <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon" /> 
   <link rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon" /> 
-  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="./styles/main.css?v=20260731">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
 
   
@@ -242,77 +242,83 @@ crawlers and Lambda.
               </div>
 
               <div class="experience_timeline">
-                <article class="experience_wrapper anim">
-                  <header class="experience_header">
-                    <div>
-                      <p class="experience_company">Cisco Systems, Inc.</p>
-                      <h3>Software Development Engineer II</h3>
-                    </div>
-                    <p class="experience_date"><time datetime="2024-06">Jun 2024</time> - Present</p>
+                <section class="experience_company_group anim" aria-labelledby="experience-cisco">
+                  <header class="experience_company_header">
+                    <h3 id="experience-cisco">Cisco Systems, Inc.</h3>
                   </header>
-                  <ul class="experience_list">
-                    <li>Architected Java/Spring Boot microservices and REST APIs for DNX Renewals ($25M annual revenue) and UNX WiFi 7 ($150M+ annual revenue).</li>
-                    <li>Built a low-latency eligibility engine with optimized in-memory data structures, enabling $2B in annual Public Sector Direct Contract sales.</li>
-                    <li>Designed Kafka and Google Pub/Sub workflows with Cassandra-backed processors secured by OAuth2, Okta, and JWT.</li>
-                    <li>Authored architecture and feature specifications, governed four critical repositories as code owner, and led production readiness.</li>
-                    <li>Upgraded async frameworks to JDK 21 and virtual threads; resolved 100+ on-call issues and 14+ critical incidents with zero post-release issues.</li>
-                    <li>Standardized Claude/Anthropic, GitHub Copilot, and Cursor workflows that accelerated delivery of 5+ major capabilities.</li>
-                  </ul>
-                  <p class="experience_stack">
-                    <span>Java</span><span>Spring Boot</span><span>Kafka</span><span>Google Pub/Sub</span><span>Cassandra</span><span>JDK 21</span>
-                  </p>
-                </article>
+                  <div class="experience_roles">
+                    <article class="experience_role">
+                      <header class="experience_role_header">
+                        <h4>Software Development Engineer II</h4>
+                        <p class="experience_date"><time datetime="2024-06">Jun 2024</time> - Present</p>
+                      </header>
+                      <ul class="experience_list">
+                        <li>Architected Java/Spring Boot microservices and REST APIs for DNX Renewals ($25M annual revenue) and UNX WiFi 7 ($150M+ annual revenue).</li>
+                        <li>Built a low-latency eligibility engine with optimized in-memory data structures, enabling $2B in annual Public Sector Direct Contract sales.</li>
+                        <li>Designed Kafka and Google Pub/Sub workflows with Cassandra-backed processors secured by OAuth2, Okta, and JWT.</li>
+                        <li>Authored architecture and feature specifications, governed four critical repositories as code owner, and led production readiness.</li>
+                        <li>Upgraded async frameworks to JDK 21 and virtual threads; resolved 100+ on-call issues and 14+ critical incidents with zero post-release issues.</li>
+                        <li>Standardized Claude/Anthropic, GitHub Copilot, and Cursor workflows that accelerated delivery of 5+ major capabilities.</li>
+                      </ul>
+                      <p class="experience_stack">
+                        <span>Java</span><span>Spring Boot</span><span>Kafka</span><span>Google Pub/Sub</span><span>Cassandra</span><span>JDK 21</span>
+                      </p>
+                    </article>
 
-                <article class="experience_wrapper anim">
-                  <header class="experience_header">
-                    <div>
-                      <p class="experience_company">Cisco Systems, Inc.</p>
-                      <h3>Software Development Engineer I</h3>
-                    </div>
-                    <p class="experience_date"><time datetime="2023-06">Jun 2023</time> - <time datetime="2024-05">May 2024</time></p>
-                  </header>
-                  <ul class="experience_list">
-                    <li>Delivered CCWR Non-Standard Deal capabilities that converted new purchases into subscription renewals, driving $1B+ in renewal revenue.</li>
-                    <li>Owned QotService, QotAsyncAdapter, CCRCSearch, and CCRCAPI while sustaining zero downtime across critical quoting workflows.</li>
-                    <li>Raised JUnit/Mockito coverage from 70% to 90%+, refactored QotService, and modularized configuration to reduce release risk.</li>
-                  </ul>
-                  <p class="experience_stack">
-                    <span>Java</span><span>Spring Boot</span><span>JUnit</span><span>Mockito</span><span>ELK</span>
-                  </p>
-                </article>
+                    <article class="experience_role">
+                      <header class="experience_role_header">
+                        <h4>Software Development Engineer I</h4>
+                        <p class="experience_date"><time datetime="2023-06">Jun 2023</time> - <time datetime="2024-05">May 2024</time></p>
+                      </header>
+                      <ul class="experience_list">
+                        <li>Delivered CCWR Non-Standard Deal capabilities that converted new purchases into subscription renewals, driving $1B+ in renewal revenue.</li>
+                        <li>Owned QotService, QotAsyncAdapter, CCRCSearch, and CCRCAPI while sustaining zero downtime across critical quoting workflows.</li>
+                        <li>Raised JUnit/Mockito coverage from 70% to 90%+, refactored QotService, and modularized configuration to reduce release risk.</li>
+                      </ul>
+                      <p class="experience_stack">
+                        <span>Java</span><span>Spring Boot</span><span>JUnit</span><span>Mockito</span><span>ELK</span>
+                      </p>
+                    </article>
 
-                <article class="experience_wrapper experience_wrapper_compact anim">
-                  <header class="experience_header">
-                    <div>
-                      <p class="experience_company">Cisco Systems, Inc.</p>
-                      <h3>Software Engineer Intern</h3>
-                    </div>
-                    <p class="experience_date"><time datetime="2023-01">Jan 2023</time> - <time datetime="2023-06">Jun 2023</time></p>
-                  </header>
-                  <p class="experience_summary">Worked with Spring Boot, REST APIs, MuleSoft, Kibana, and Elasticsearch while deepening core Java development skills.</p>
-                </article>
+                    <article class="experience_role experience_role_compact">
+                      <header class="experience_role_header">
+                        <h4>Software Engineer Intern</h4>
+                        <p class="experience_date"><time datetime="2023-01">Jan 2023</time> - <time datetime="2023-06">Jun 2023</time></p>
+                      </header>
+                      <p class="experience_summary">Worked with Spring Boot, REST APIs, MuleSoft, Kibana, and Elasticsearch while deepening core Java development skills.</p>
+                    </article>
+                  </div>
+                </section>
 
-                <article class="experience_wrapper experience_wrapper_compact anim">
-                  <header class="experience_header">
-                    <div>
-                      <p class="experience_company">Zoho Corporation</p>
-                      <h3>Software Engineer Intern</h3>
-                    </div>
-                    <p class="experience_date"><time datetime="2022-04">Apr 2022</time> - <time datetime="2022-05">May 2022</time></p>
+                <section class="experience_company_group anim" aria-labelledby="experience-zoho">
+                  <header class="experience_company_header">
+                    <h3 id="experience-zoho">Zoho Corporation</h3>
                   </header>
-                  <p class="experience_summary">Developed a Servlet/JSP web application for IPL match schedules and live commentary with separate admin and user experiences.</p>
-                </article>
+                  <div class="experience_roles">
+                    <article class="experience_role experience_role_compact">
+                      <header class="experience_role_header">
+                        <h4>Software Engineer Intern</h4>
+                        <p class="experience_date"><time datetime="2022-04">Apr 2022</time> - <time datetime="2022-05">May 2022</time></p>
+                      </header>
+                      <p class="experience_summary">Developed a Servlet/JSP web application for IPL match schedules and live commentary with separate admin and user experiences.</p>
+                    </article>
+                  </div>
+                </section>
 
-                <article class="experience_wrapper experience_wrapper_compact anim">
-                  <header class="experience_header">
-                    <div>
-                      <p class="experience_company">Independent</p>
-                      <h3>Freelance Graphic Designer</h3>
-                    </div>
-                    <p class="experience_date"><time datetime="2019-08">Aug 2019</time> - <time datetime="2021-10">Oct 2021</time></p>
+                <section class="experience_company_group anim" aria-labelledby="experience-independent">
+                  <header class="experience_company_header">
+                    <h3 id="experience-independent">Independent</h3>
                   </header>
-                  <p class="experience_summary">Created logos and promotional artwork for local businesses, esports organizations, and WAY Charitable Trust.</p>
-                </article>
+                  <div class="experience_roles">
+                    <article class="experience_role experience_role_compact">
+                      <header class="experience_role_header">
+                        <h4>Freelance Graphic Designer</h4>
+                        <p class="experience_date"><time datetime="2019-08">Aug 2019</time> - <time datetime="2021-10">Oct 2021</time></p>
+                      </header>
+                      <p class="experience_summary">Created logos and promotional artwork for local businesses, esports organizations, and WAY Charitable Trust.</p>
+                    </article>
+                  </div>
+                </section>
               </div>
             </div>
         </div>
