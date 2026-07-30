@@ -525,16 +525,17 @@ li.project_link > a:hover {
   background: rgba(0, 248, 223, 0.35);
 }
 
-.experience_wrapper {
+.experience_company_group {
+  display: block;
   position: relative;
   width: 100%;
   margin: 0;
-  padding: 0 0 34px;
+  padding: 0 0 42px;
   text-align: left;
   opacity: 0;
 }
 
-.experience_wrapper::before {
+.experience_company_group::before {
   content: "";
   position: absolute;
   top: 7px;
@@ -547,39 +548,54 @@ li.project_link > a:hover {
   box-sizing: border-box;
 }
 
-.experience_wrapper:last-child {
+.experience_company_group:last-child {
   padding-bottom: 0;
 }
 
-.experience_wrapper.animate {
+.experience_company_group.animate {
   animation: slide_in ease forwards 0.5s;
 }
 
-.experience_header {
+.experience_company_header {
+  margin-bottom: 20px;
+}
+
+.experience_company_header h3 {
+  display: block;
+  margin: 0;
+  color: #00f8df;
+  font-size: 22px;
+  line-height: 1.3;
+}
+
+.experience_roles {
+  display: grid;
+  gap: 30px;
+}
+
+.experience_role {
+  padding-left: 20px;
+  border-left: 1px solid rgba(143, 233, 223, 0.25);
+}
+
+.experience_role_header {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   gap: 24px;
 }
 
-.experience_company,
 .experience_date,
 .experience_summary,
 .experience_stack {
   margin: 0;
 }
 
-.experience_company {
-  color: #00f8df;
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.experience_header h3 {
-  margin: 3px 0 0;
+.experience_role_header h4 {
+  display: block;
+  margin: 0;
   color: #ffffff;
-  font-size: 21px;
+  font-size: 20px;
   line-height: 1.3;
 }
 
@@ -622,15 +638,12 @@ li.project_link > a:hover {
   color: #607782;
 }
 
-.experience_wrapper_compact {
-  padding-bottom: 27px;
-}
-
-.experience_wrapper_compact .experience_header h3 {
+.experience_role_compact .experience_role_header h4 {
   font-size: 18px;
 }
 
 .experience_summary {
+  display: block;
   max-width: 900px;
   margin-top: 10px;
   color: #d7dee7;
@@ -983,16 +996,9 @@ li.skill_label {
   opacity: 0;
 }
 
-/* .experience_wrapper.animate > .experience_list, */
 .other_skills.animate > .other_skill_divs {
   animation: slide_in ease forwards 0.5s;
 }
-
-/* .experience_list > :nth-child(1) { animation-delay: 0.15s; }
-.experience_list > :nth-child(2) { animation-delay: 0.2s; }
-.experience_list > :nth-child(3) { animation-delay: 0.25s; }
-.experience_list > :nth-child(4) { animation-delay: 0.3s; }
-.experience_list > :nth-child(5) { animation-delay: 0.35s; } */
 
 .ten {
   position: fixed;
@@ -1145,10 +1151,13 @@ small {
   .experience_timeline {
     padding-left: 24px;
   }
-  .experience_wrapper::before {
+  .experience_company_group::before {
     left: -24px;
   }
-  .experience_header {
+  .experience_role {
+    padding-left: 14px;
+  }
+  .experience_role_header {
     display: block;
   }
   .experience_date {
@@ -1171,10 +1180,13 @@ small {
   .experience_timeline {
     padding-left: 30px;
   }
-  .experience_wrapper::before {
+  .experience_company_group::before {
     left: -30px;
   }
-  .experience_header {
+  .experience_role {
+    padding-left: 20px;
+  }
+  .experience_role_header {
     display: flex;
   }
 }  
@@ -1197,7 +1209,7 @@ small {
 
 .detail,
 .bio,
-.experience_wrapper,
+.experience_company_group,
 .contact,
 li.skill_label { font-size: 17px; }
 
